@@ -1,10 +1,10 @@
 {
-  "name": "prac3",
+  "name": "prac4",
   "version": "1.0.0",
   "description": "bootstraping express",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/valehmoghaddam/Prac3#readme",
   "dependencies": {
+    "db": "^3.3.1",
     "express": "^4.17.3",
     "materialize": "^1.0.0",
+    "mongo": "^0.1.0",
     "nodemon": "^2.0.15"
   }
 }
